@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
-<body style="margin:0;background:#000;">
-
-<video controls autoplay width="100%" height="100%" poster="https://cipwave.online/thumb.jpg">
-  <source src="https://cipwave.online/videos/myvideo.mp4" type="video/mp4">
-</video>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Player</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    html,body{margin:0;height:100%;background:#000}
+    video{width:100%;height:100%;object-fit:contain;background:#000}
+  </style>
+</head>
+<body>
+  <video controls autoplay preload="metadata">
+    <source src="https://cipwave.online/video.mp4" type="video/mp4">
+  </video>
 </body>
 </html>
